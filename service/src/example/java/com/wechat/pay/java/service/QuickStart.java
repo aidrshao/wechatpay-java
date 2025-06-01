@@ -12,16 +12,17 @@ import com.wechat.pay.java.service.payments.jsapi.model.PrepayResponse;
 public class QuickStart {
 
   /** 商户号 */
-  public static String merchantId = "";
+  public static String merchantId = "1683311162";
 
   /** 商户API私钥路径 */
-  public static String privateKeyPath = "";
+  // 请确保 api_Certificate 目录在项目的根目录下，并且包含您的商户私钥文件 apiclient_key.pem
+  public static String privateKeyPath = "api_Certificate/apiclient_key.pem";
 
   /** 商户证书序列号 */
-  public static String merchantSerialNumber = "";
+  public static String merchantSerialNumber = "35E63A455062980FA300C820CB2E0AF03E3F6A45";
 
   /** 商户APIV3密钥 */
-  public static String apiV3Key = "";
+  public static String apiV3Key = "O7pL9kQ2rS5uV8wX3yZ4aB6cD1eF0gHj";
 
   public static void main(String[] args) {
     // 使用自动更新平台证书的RSA配置
